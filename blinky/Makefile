@@ -1,5 +1,5 @@
 PROJECT = stm32-blinky
-BUILD_DIR = bin
+BUILD_DIR ?= bin
 
 SHARED_DIR = ../common-code
 CFILES = $(PROJECT).c
