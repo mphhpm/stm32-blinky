@@ -1,10 +1,6 @@
 PROJECT = stm32-blinky
 BUILD_DIR ?= bin
-
-SHARED_DIR = ../common-code
 CFILES = $(PROJECT).c
-CFILES += api.c
-AFILES += api-asm.S
 
 # TODO - you will need to edit these two lines!
 DEVICE=stm32f103c8
